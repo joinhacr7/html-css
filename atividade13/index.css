@@ -1,0 +1,15 @@
+
+body{
+    background-image: url(./espaco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 380px;
+}
+img{
+margin-left: 30%;
+
+margin-right: 30%;
+
+
+}
