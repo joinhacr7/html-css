@@ -10,3 +10,7 @@ color: azure;
 padding: 10px;
 text-align: center;
 }
+a{
+    color: azure;
+    text-decoration: none;
+}
