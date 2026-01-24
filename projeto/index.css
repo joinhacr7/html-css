@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    background-color: black;
+}
+p{
+color: azure;
+padding: 10px;
+text-align: center;
+}
