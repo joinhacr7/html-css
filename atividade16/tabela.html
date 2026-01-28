@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 500px;
+}
+caption{
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 10px;
+
+    font-weight: bold;
+    font-size: 1.5em;
+}
+tbody > tr:nth-child(odd) /* old impar, even par ou 2n */{
+    background-color: gray;
+}
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+
+
+}
+thead, tfoot{
+    background-color: gray;
+color: white;
+}
+td.a{
+    text-align: right;
+}
+    </style>
+</head>
+<body>
+    <!--
+    ANATOMIA PARA TABELAS GRANDES
+    TABLE
+         THEAD
+         Tr,TD,TH
+         TBODY
+          Tr,TD,TH
+         TFOOT
+          Tr,TD,TH
+    -->
+<table>
+    <caption>Tabela sobre o Brasil</caption>
+    <thead>
+        <tr>
+            <th scope="col">ESTADO</th>
+            <th scope="col" style="width: 50px;">POPULAÇÃO</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        <tr>
+            <td >SÃO PAULO</td>
+            <td class="a">45 919 049</td>
+        </tr>
+
+        <tr>
+            <td >Minas gerais</td>
+            <td class="a"> 21 168 791 </td>
+        </tr>
+        <tr>
+            <td >Rio de Janeiro</td>
+            <td class="a">17 000 00</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+        <th scope="row">Total de habitantes</th>
+        <td class="a">0000</td>
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>
