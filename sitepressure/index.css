@@ -5,6 +5,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+ 
 }
 
 header {
@@ -37,14 +38,19 @@ main{
     margin-left: 30px;
     margin-right: 30px;  
 }
+.parte{
+    text-align: center;
+}
+
 main article{
     background-color: rgb(194, 194, 194);
     padding-left: 30px;
     padding-right: 30px;
-height: 500px;
 text-align:left; 
-font-size: 24px;
-
+width: 350px;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-left: 31%;
 }
 main article a{
     text-decoration: none;
