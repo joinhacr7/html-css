@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #272E36;
+}
+
+/* NAV PRINCIPAL */
+nav {
+    display: flex;
+    align-items: center;          /* centraliza verticalmente */
+    justify-content: space-between; /* logo de um lado, menu do outro */
+    padding: 10px 20px;
+}
+
+/* MENU */
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px; /* espaço entre os links */
+}
+
+/* REMOVE O FUNDO PRETO DOS LINKS */
+nav > a {
+    background-color: transparent;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
+
+footer p a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

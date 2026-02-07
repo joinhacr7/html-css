@@ -15,7 +15,7 @@ header > nav{
 align-items: center;
 }
 main{
-
+margin: 10px;
 }
 footer{
     background-color: black;
@@ -23,11 +23,20 @@ footer{
     text-align: center;
 padding: 10px;
 }
+main >a{
+    color: rgb(0, 43, 135);
+    padding: 10px;
+}
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 a:hover{
     text-decoration: underline;
+}
+iframe{
+    
+    width: 1050px;
+    height: 400px;
 }
