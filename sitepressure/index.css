@@ -23,14 +23,35 @@ nav {
 .menu a {
     text-decoration: none;
     color: white;
-    margin-left: 15px; /* espaço entre os links */
+    margin-left: 15px;
+    font-weight: bold;
+    /* espaço entre os links */
 }
 
 /* REMOVE O FUNDO PRETO DOS LINKS */
 nav > a {
     background-color: transparent;
 }
+main{
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;  
+}
+main article{
+    background-color: rgb(194, 194, 194);
+    padding-left: 30px;
+    padding-right: 30px;
+height: 500px;
+text-align:left; 
+font-size: 24px;
 
+}
+main article a{
+    text-decoration: none;
+    color: rgb(164, 8, 8);
+    font-weight: bold;
+    
+}
 /* FOOTER */
 footer {
     background-color: black;
