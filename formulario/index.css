@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    background-color: blue;
+    display: flex; 
+    align-items: center;
+    justify-content: right;
+    padding: 10px;
+}
+header nav{
+    display: flex;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+
+}
+main {
+background-image: linear-gradient(to top, rgb(173, 173, 173));
+display: flex;
+justify-content: center;
+    align-items: center;
+    height: 505px;
+
+}
+main div{
+    background-image: linear-gradient(to top, rgb(255, 255, 255));
+border: 1px solid black;
+border-radius: 10px;
+height: 150px;
+width: 200px;
+margin: 10px;
+padding: 15px;
+
+
+}
